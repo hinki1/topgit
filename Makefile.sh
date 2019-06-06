@@ -32,8 +32,8 @@ defines() {
 	# so that if config.mak just sets prefix they all automatically change
 	[ -n "$prefix"   ] || prefix="$HOME"
 	[ -n "$bindir"   ] || bindir='$(prefix)/bin'
-	[ -n "$cmddir"   ] || cmddir='$(prefix)/libexec/topgit'
-	[ -n "$sharedir" ] || sharedir='$(prefix)/share/topgit'
+	[ -n "$cmddir"   ] || cmddir='$(prefix)/share/topgit'
+	[ -n "$sharedir" ] || sharedir='$(prefix)/share/doc/topgit'
 	[ -n "$hooksdir" ] || hooksdir='$(cmddir)/hooks'
 }
 

@@ -1,4 +1,4 @@
-topgit (0.19.12-1) stable; urgency=medium
+topgit (0.19.12-1) buster; urgency=medium
 
   [ martin f. krafft ]
   * deal with single quotes in from/to headers
